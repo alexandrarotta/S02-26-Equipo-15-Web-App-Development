@@ -20,10 +20,6 @@ spring:
       idle-timeout: ${DB_IDLE_TIMEOUT_MS:180000}
       max-lifetime: ${DB_MAX_LIFETIME_MS:240000}
       keepalive-time: ${DB_KEEPALIVE_TIME_MS:120000}
-      data-source-properties:
-        tcpKeepAlive: true
-        connectTimeout: 10
-        socketTimeout: 30
   jpa:
     open-in-view: false
     hibernate:
